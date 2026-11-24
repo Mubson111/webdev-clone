@@ -328,7 +328,7 @@ section.Building p {
 .grid_section>div:nth-child(2) {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  gap: px;
 }
 
 .grid_section {
@@ -338,7 +338,7 @@ section.Building p {
 .grid_section h2 {
   font-size: 32px;
   font-weight: 700px;
-  margin-bottom: 16px;
+  margin-bottom: px;
 }
 
 .grid_section>div:first-child {
