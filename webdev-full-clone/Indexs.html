@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web.dev Clone</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href=""><img
+        src="https://www.gstatic.com/devrel-devsite/prod/vc11e4c9d4c060345ba98585d538d4546e842f4a6ee5c5f9e85be4bd345767217/web/images/lockup.svg"
+        alt="logo" width="181px" height="48"></a>
+    <nav>
+      <ul>
+        <li>
+          <a href="">Resources <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8"
+              fill="none" aria-hidden="true" class="chevron">
+              <path
+                d="M1.62072 0.818115L0.560059 1.87878L5.86335 7.1821L11.1666 1.8788L10.106 0.818137L5.86336 5.06076L1.62072 0.818115Z"
+                fill="currentColor"></path>
+            </svg></a>
+        </li>
+        <li><a href="">Discover</a></li>
+        <li><a href="">Baseline</a></li>
+        <li><a href="">How to use Baseline</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Case Studies</a></li>
+
+        <li>
+          <div>
+            <svg class="devsite-search-ai-image" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_6641_386)">
+                <path
+                  d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.14167 15.375 4.875 14.125C3.625 12.8583 3 11.3167 3 9.5C3 7.68333 3.625 6.15 4.875 4.9C6.14167 3.63333 7.68333 3 9.5 3C10.0167 3 10.5167 3.05833 11 3.175C11.4833 3.275 11.9417 3.43333 12.375 3.65L10.825 5.2C10.6083 5.13333 10.3917 5.08333 10.175 5.05C9.95833 5.01667 9.73333 5 9.5 5C8.25 5 7.18333 5.44167 6.3 6.325C5.43333 7.19167 5 8.25 5 9.5C5 10.75 5.43333 11.8167 6.3 12.7C7.18333 13.5667 8.25 14 9.5 14C10.6667 14 11.6667 13.625 12.5 12.875C13.35 12.1083 13.8417 11.15 13.975 10H15.975C15.925 10.6333 15.7833 11.2333 15.55 11.8C15.3333 12.3667 15.05 12.8667 14.7 13.3L21 19.6L19.6 21ZM17.5 12C17.5 10.4667 16.9667 9.16667 15.9 8.1C14.8333 7.03333 13.5333 6.5 12 6.5C13.5333 6.5 14.8333 5.96667 15.9 4.9C16.9667 3.83333 17.5 2.53333 17.5 0.999999C17.5 2.53333 18.0333 3.83333 19.1 4.9C20.1667 5.96667 21.4667 6.5 23 6.5C21.4667 6.5 20.1667 7.03333 19.1 8.1C18.0333 9.16667 17.5 10.4667 17.5 12Z"
+                  fill="#5F6368"></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_6641_386">
+                  <rect width="24" height="24" fill="white"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+            <input type="text" placeholder="Search">
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="lang">
+      <span class="lang_logo"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="2" y1="12" x2="22" y2="12"></line>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+          </path>
+        </svg></span>
+
+      <a href="">English</a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true"
+        class="chevron">
+        <path
+          d="M1.62072 0.818115L0.560059 1.87878L5.86335 7.1821L11.1666 1.8788L10.106 0.818137L5.86336 5.06076L1.62072 0.818115Z"
+          fill="currentColor"></path>
+      </svg>
+    </div>
+    <div class="sign-up">
+      <a href="">Sign up</a>
+    </div>
+  </header>
+
+  <article class="Guidance_header">
+    <p>Guidance to build modern web experiences that work on any browser.
+    </p>
+  </article>
+  <article class="Modern_header">
+    <p><span>Modern Web Guidance is now stable!</span> Upgrade your coding agents with expert-vetted web development
+      best practices. Read the announcement.</p>
+  </article>
+  <main>
+    <section class="Building centralize_content">
+      <div>
+
+        <h2>Building a better web, together</h2>
+        <p>We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for
+          all of your users. This site is our home for content to help you on that journey, written by members of the
+          Chrome team, and external experts who specialize in web development topics such as accessibility, performance,
+          design, and more.</p>
+      </div>
+      <div>
+        <div class="box_photo_container"><img src="https://web.dev/static/images/home-blue_960.png" alt=""></div>
+      </div>
+    </section>
+
+    <section class="Service_overview centralize_content">
+      <div>
+        <div class="img_container"><img src="https://web.dev/static/images/ai-feature_720.png" alt=""></div>
+        <h3><a href="">AI and the web</a></h3>
+        <p>Discover resources created to help you understand and build performant, web-first experiences with AI.</p>
+        <button><a href="">Learn More</a></button>
+      </div>
+      <div>
+        <div class="img_container"><img src="https://web.dev/static/images/inp-icon-only_720.jpg" alt=""></div>
+        <h3><a href="">Optimize INP</a></h3>
+        <p>Interaction to Next Paint (INP) is now a Core Web Vital metric. Start measuring and optimizing your site's
+          INP</p><button><a href="">Learn More</a></button>
+      </div>
+      <div>
+        <div class="img_container"><img src="https://web.dev/static/identity/image/hero-identity_720.png" alt=""></div>
+        <h3><a href="">Payments & Identity</a></h3>
+        <p>Read up on the latest features and best practices when it comes to identity and payment processing.</p>
+        <button><a href="">Learn More</a></button>
+      </div>
+    </section>
+    <section class="Technologies">
+      <div class="centralize_content">
+        <div>
+          <div class="Explore">
+            <h2>Explore the web platform</h2>
+            <button><a href="">Start Exploring</a></button>
+          </div>
+          <p>The web platform is a constantly evolving ecosystem of browser features and APIs for developers to make
+            websites that are easy and delightful to use. These pages are pathways for you to dive into each part of the
+            web
+            platform on web.dev—at your pace.</p>
+        </div>
+        <div class="Track">
+          <div>
+            <h4>HTML</h4>
+            <p>HTML is the document layer of the web, providing structure and semantics for pages.</p>
+            <button><a href="">Learn more</a>
+            </button>
+          </div>
+          <div>
+            <h4>CSS</h4>
+            <p>CSS is the presentation layer of the web, and allows you to make your web pages look exactly like you
+              imagine.</p>
+            <button><a href="">Learn more</a></button>
+          </div>
+          <div>
+            <h4>JavaScript</h4>
+            <p>JavaScript adds rich interactivity to web pages, so you can build websites that help users to perform
+              tasks
+              and accomplish goals.</p>
+            <button><a href="">Learn more</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Learn_Web centralize_content">
+      <div>
+        <h2>Learn the web platform</h2>
+        <button><a href="">Start Learning</a></button>
+      </div>
+      <p>New to the web platform? We've got you covered! Dive into each layer, with courses curated specifically for
+        beginners to HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section class="Learn_Technologies centralize_content">
+      <div>
+        <div class="img_container"><img src="https://web.dev/static/learn/html/card_720.png" alt=""></div>
+        <span>Course</span>
+        <h3><a href="">Learn HTML</a></h3>
+        <p>A solid overview of HTML for developers, from novice to expert level HTML.</p>
+        <button><a href="">Start course</a></button>
+      </div>
+      <div>
+        <div class="img_container"><img src="https://web.dev/static/learn/css/card_720.png" alt=""></div>
+        <span>Course</span>
+        <h3><a href="">Learn CSS</a></h3>
+        <p>A guide to CSS with modules covering everything from accessibility to z-index.</p>
+        <button><a href="">Start course</a></button>
+      </div>
+      <div>
+        <div class="img_container"><img src="https://web.dev/static/learn/javascript/card_720.png" alt=""></div>
+        <span>Course</span>
+        <h3>
+          <a href="">Learn
+            JavaScript</a>
+        </h3>
+        <p>An in-depth course on the basics of JavaScript.</p>
+        <button><a href="">Start course</a></button>
+      </div>
+    </section>
+
+    <section class="Keep_up">
+      <div class="centralize_content">
+        <div>
+          <h3>Keep up on web development news</h3>
+          <p>Read our blog to learn the latest news in web development, including new web platform features, updates to
+            Baseline, AI, Core Web Vitals, and more.</p>
+          <button><a href="">Read the blog</a></button>
+        </div>
+        <div><img src="https://web.dev/static/images/blog-header_1920.png" alt="" width="254px"></div>
+      </div>
+    </section>
+    <section class="Baseline centralize_content grid_section">
+      <div>
+        <h2>Baseline
+        </h2>
+        <p>Get up to speed with the latest updates and news on Baseline.
+        </p><a href=""><button>More on Baseline</button></a>
+      </div>
+      <div>
+        <div><a href="">August 2026 Baseline monthly digest</a>
+          <p>Read about various happenings with Baseline during August 2026.</p>
+        </div>
+        <div><a href="">Find features to support for Interop 2027 with your coding agent</a>
+          <p>Learn how you can use your coding agent to find Interop 2027 proposals to upvote, or find features to
+            propose.</p>
+        </div>
+        <div><a href="">Submit your proposals for Interop 2027</a>
+          <p>It's time to let us know which web platform features should be part of Interop 2027.</p>
+        </div>
+        <div><a href="">July 2026 Baseline monthly digest</a>
+          <p>Read about various happenings with Baseline during July 2026.</p>
+        </div>
+      </div>
+
+    </section>
+    <section class="CSS_UI">
+      <div class="centralize_content grid_section">
+        <div>
+          <h2>CSS and UI design</h2>
+          <p>Learn the latest tips and techniques to use in your work, right now.</p><a href=""><button>Explore
+              CSS</button></a>
+        </div>
+        <div>
+          <div><a href="">Adapting typography to user preference using CSS</a>
+            <p>Adapt a font to your users' preferences, so they're maximally comfortable reading your content.</p>
+          </div>
+          <div><a href="">New CSS color spaces and functions in all major engines</a>
+            <p>All major engines now support the new CSS color spaces and functions. Find out how they can bring
+              vibrancy
+              to your designs.</p>
+          </div>
+          <div><a href="">What are source maps?</a>
+            <p>Improve web debugging experience with source maps.</p>
+          </div>
+          <div><a href="">CSS subgrid</a>
+            <p>Subgrid is now interoperable across all three major engines. Find out how to use it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Core-web centralize_content grid_section">
+      <div>
+        <h2>Progressive Web Apps</h2>
+        <p>Create capable web experiences.</p><a href=""><button>More on PWA</button></a>
+      </div>
+      <div>
+        <div><a href="">Learn PWA</a>
+          <p>A course that breaks down every aspect of modern progressive web app development.</p>
+        </div>
+        <div><a href="">TransformStream is now supported cross browser.</a>
+          <p>Now that transform streams are supported in Safari, Firefox, and Chrome they are finally ready for prime
+            time.</p>
+        </div>
+        <div><a href="">New patterns for amazing apps</a>
+          <p>Dive into a fantastic collection of new patterns for amazing apps, including clipboard patterns, file
+            patterns, and advanced app patterns.</p>
+        </div>
+        <div><a href="">Project Fugu API showcase</a>
+          <p>On the Chrome Developers site, explore capabilities APIs.</p>
+        </div>
+      </div>
+
+    </section>
+    <section class="Progressive">
+      <div class="centralize_content grid_section">
+        <div>
+          <h2>Core Web Vitals</h2>
+          <p>Build faster websites and apps by understanding Core Web Vitals and other metrics.</p><a
+            href=""><button>Explor
+              Core Web Vitals</button></a>
+        </div>
+        <div>
+          <div><a href="">The most effective ways to improve Core Web Vitals</a>
+            <p>A collection of best practices for optimizing websites' Core Web Vitals performance based on the state of
+              the web.</p>
+          </div>
+          <div><a href="">How to optimize INP</a>
+            <p>Learn how to optimize for the Interaction to Next Paint metric.</p>
+          </div>
+          <div><a href="">Common misconceptions about how to optimize LCP</a>
+            <p>Explore common misconceptions about optimizing Largest Contentful Paint by looking beyond image
+              optimization and considering factors like Time to First Byte and resource load delay.</p>
+          </div>
+          <div><a href="">Best practices for measuring Web Vitals in the field</a>
+            <p>Guidance for collecting and reporting Web Vitals quickly and reliably.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="Accessiblility centralize_content grid_section">
+      <div>
+        <h2>Accessible for all</h2>
+        <p>Learn how to make your sites more accessible for people with disabilities, whether permanent, temporary, or
+          situational.</p><a href=""><button>More on Accessibility</button></a>
+      </div>
+      <div>
+        <div><a href="">Learn Accessibility</a>
+          <p>Our new course is a great entry point and reference for accessibility topics.</p>
+        </div>
+        <div><a href="">Testing web design color contrast</a>
+          <p>An overview of three tools and techniques for testing and verifying accessible color contrast of your
+            design.</p>
+        </div>
+        <div><a href="">Building the main navigation for a website</a>
+          <p>This tutorial describes how to build an accessible main navigation of a website. You learn about semantic
+            HTML, accessibility, and how using ARIA attributes can sometimes do more harm than good.</p>
+        </div>
+        <div><a href="">Community highlight: Melanie Sumner</a>
+          <p>Read our interview with Melanie, a software engineer who specializes in digital accessibility.</p>
+        </div>
+      </div>
+
+    </section>
+    <section class="Payment_identity">
+      <div class="centralize_content grid_section">
+        <div>
+          <h2>Payments and identity</h2>
+          <p>Find the latest techniques and best practices for payments and helping users safely log into your sites and
+            apps.</p><a href=""><button>More on identity</button></a>
+        </div>
+        <div>
+          <div><a href="">Create a passkey for passwordless logins</a>
+            <p>Passkeys make user accounts safer, simpler, easier to use.</p>
+          </div>
+          <div><a href="">Sign in with a passkey</a>
+            <p>Create a sign in experience that uses passkeys while still accommodating existing password users.
+            </p>
+          </div>
+          <div><a href="">Web payments overview</a>
+            <p>Learn more about Web Payments and how they work.</p>
+          </div>
+          <div><a href="">Payment and address form best practices</a>
+            <p>Maximize conversions by helping your users complete address and payment forms as quickly and easily as
+              possible.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="Newsletter">
+      <div class="centralize_content">
+        <div class="Newsletter_heading">
+          <h2>Developer Newsletter</h2>
+          <p>Get the latest news, techniques and updates straight to your inbox.</p>
+        </div>
+        <form class="signup-form" action="#" method="POST">
+          <!-- Row 1: First Name & Last Name -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first_name" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last_name" placeholder="Last Name" required>
+            </div>
+          </div>
+
+
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+
+
+          <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country" name="country" required>
+              <option value="" disabled selected></option>
+              <option value="NG">Nigeria</option>
+              <option value="US">United States</option>
+              <option value="GB">United Kingdom</option>
+              <option value="CA">Canada</option>
+
+            </select>
+          </div>
+
+
+          <p class="disclaimer">
+            Don't worry, no spam here! Your information will only be used for web.dev and Chrome related updates and our
+            emails are typically no more than 1-2 times a month. You can unsubscribe anytime.
+          </p>
+
+
+          <label class="checkbox-group">
+            <input type="checkbox" name="mailing_list">
+            <span>Add me to the web.dev mailing list.</span>
+          </label>
+
+
+          <label class="checkbox-group">
+            <input type="checkbox" name="terms" required>
+            <span>
+              I accept Google's <a href="#">Terms and Conditions</a> and acknowledge that my information will be used in
+              accordance with Google's <a href="#">Privacy Policy</a>.
+            </span>
+          </label>
+
+
+          <div class="recaptcha-placeholder">
+            <div class="recaptcha-left">
+              <input type="checkbox" id="robot-check" required>
+              <label for="robot-check" style="font-size: 14px; color: #202124;">I'm not a robot</label>
+            </div>
+            <div class="recaptcha-brand">reCAPTCHA</div>
+          </div>
+
+
+          <button type="submit" class="submit-btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <!-- Top Section -->
+      <div class="footer-top">
+        <!-- Brand / Description Column -->
+        <div class="footer-brand">
+          <a href=""><img
+              src="https://www.gstatic.com/devrel-devsite/prod/vc11e4c9d4c060345ba98585d538d4546e842f4a6ee5c5f9e85be4bd345767217/web/images/lockup.svg"
+              alt="logo" width="140px" height="40"></a>
+          </a>
+          <p>
+            We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for
+            all of your users. This site is our home for content to help you on that journey, written by members of the
+            Chrome team, and external experts.
+          </p>
+        </div>
+
+        <!-- Contribute Column -->
+        <div class="footer-column">
+          <h3>Contribute</h3>
+          <ul>
+            <li><a href="#">File a bug</a></li>
+            <li><a href="#">See open issues</a></li>
+          </ul>
+        </div>
+
+        <!-- Related Content Column -->
+        <div class="footer-column">
+          <h3>Related Content</h3>
+          <ul>
+            <li><a href="#">Chrome for Developers</a></li>
+            <li><a href="#">Chromium updates</a></li>
+            <li><a href="#">Case studies</a></li>
+            <li><a href="#">Podcasts &amp; shows</a></li>
+          </ul>
+        </div>
+
+        <!-- Follow Column -->
+        <div class="footer-column">
+          <h3>Follow</h3>
+          <ul>
+            <li><a href="#">@ChromiumDev on X</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Chrome for Developers on LinkedIn</a></li>
+            <li><a href="#">RSS</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <a href="#">Terms</a>
+          <span class="divider">|</span>
+          <a href="#">Privacy</a>
+        </div>
+
+        <div class="footer-language">
+          <button class="language-selector" aria-label="Select language">
+            <!-- Globe Icon SVG -->
+            <svg width="18" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+              </path>
+            </svg>
+            <span>English</span>
+            <span>&#9662;</span>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+</body>
+
+</html>
