@@ -304,9 +304,7 @@ section.Building p {
   margin: px;
 }
 
-.Keep_up {
-  background-color: ;
-}
+
 
 
 .Keep_up .centralize_content {
@@ -478,12 +476,13 @@ form {
   padding: 10px;
   margin-left: 280px;
   font-size: 20px;
-  
+
 }
 
 
 
-.footer-top,.footer-bottom{
+.footer-top,
+.footer-bottom {
   display: flex;
   gap: 15px;
   padding: 20px;
@@ -493,21 +492,23 @@ form {
   font-size: 14px;
 }
 
-.footer-top{
+.footer-top {
   border-bottom: 1px solid rgb(197, 194, 194);
 }
- .footer-brand{
+
+.footer-brand {
   width: 600px;
- }
+}
 
- .footer-brand img, .footer-column h3{
+.footer-brand img,
+.footer-column h3 {
   margin-bottom: 18px;
- }
+}
 
- footer li{
+footer li {
   margin-bottom: 8px;
- }
+}
 
- footer button span{
+footer button span {
   margin-top: 0px;
- }
+}
